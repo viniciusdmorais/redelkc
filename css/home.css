@@ -58,3 +58,20 @@ iframe {
     width: 300px;
     height: 400px;
 }
+
+/* Estilos para links não visitados */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+/* Estilos para links visitados */
+a:visited {
+    color: #551a8b;
+}
+
+/* Estilos para links quando o mouse está sobre eles */
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
